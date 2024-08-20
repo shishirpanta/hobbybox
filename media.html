@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - HobbyBox Treasures</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HobbyBox Treasures</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="media">
+            <div class="container">
+                <h2>Our Media</h2>
+                <div class="gallery">
+                    <img src="assets/thumbnail1.jpg" alt="Gallery image 1" class="thumbnail" onclick="showImage('assets/large1.jpg')">
+                    <img src="assets/thumbnail2.jpg" alt="Gallery image 2" class="thumbnail" onclick="showImage('assets/large2.jpg')">
+                    <img src="assets/thumbnail3.jpg" alt="Gallery image 3" class="thumbnail" onclick="showImage('assets/large3.jpg')">
+                </div>
+                <div id="lightbox" class="lightbox" onclick="hideImage()">
+                    <img id="lightbox-img" src="" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HobbyBox Treasures. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

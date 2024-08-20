@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HobbyBox Treasures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HobbyBox Treasures</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-info">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feel free to reach out to us via the contact form below, or through our email and social media channels.</p>
+                
+                <ul class="contact-links">
+                    <li>Email: <a href="mailto:info@hobbyboxtreasures.com">info@hobbyboxtreasures.com</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/hobbyboxtreasures" target="_blank">HobbyBox Treasures</a></li>
+                    <li>Instagram: <a href="https://www.instagram.com/hobbyboxtreasures" target="_blank">@hobbyboxtreasures</a></li>
+                    <li>Twitter: <a href="https://twitter.com/hobbyboxtreasure" target="_blank">@hobbyboxtreasure</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form id="contactForm" novalidate>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required minlength="3">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required minlength="10"></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="formMessage"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HobbyBox Treasures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
